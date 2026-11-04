@@ -1,0 +1,13 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+#outfitImage {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
