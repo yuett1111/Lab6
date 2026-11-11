@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Outfit Advisor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Weather Outfit Advisor</h1>
-    <p>What should I wear today?</p>
+    <p>“What's the weather feeling like? Pick a city and let's find your cozy layers, sweater weather, or summer vibes!”</p>
 
-    <img id="outfitImage" src="images/winter.jpg" alt="Outfit" />
+    <section id="outfitSection">
+        <h2>Today's Outfit</h2>
+        <img id="outfitImage" src="images/winter.jpg" alt="Outfit" />
 
-    <p id="temperature">Loading weather...</p>
-    <p id="outfitText"></p>
+        <p id="temperature">Loading weather...</p>
+        <p id="outfitText"></p>
+
+        <button id="refreshButton">Refresh Weather</button>
+
+        <label for="city">Choose a city:</label>
+
+        <select id="city">
+            <option value="43.59&longitude=-79.64">Mississauga</option>
+            <option value="78.22&longitude=15.65">Longyearbyen, Norway</option>
+            <option value="-33.87&longitude=151.21">Sydney</option>
+            <option value="38.72&longitude=-9.14">Lisbon, Portugal</option>
+            <option value="1.35&longitude=103.82">Singapore</option>
+        </select>
+    </section>
 
     <script src="script.js"></script>
     
 </body>
 </html>
 
-Image sources: 
